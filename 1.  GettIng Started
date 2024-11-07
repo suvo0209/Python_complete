@@ -1,0 +1,7 @@
+Running Python Programs from a terminal
+Most of the programs you write in your text editor you’ll run directly from the editor, but sometimes it’s useful to run programs from a terminal instead. For example, you might want to run an existing program
+without opening it for editing. 
+You can do this on any system with Python installed if you know how to access the directory where you’ve stored your program file. 
+Running Snippets of Python Code
+INPUT: print("Hello Python interpreter!") 
+OUTPUT: Hello Python interpreter! 
