@@ -21,3 +21,34 @@ Strings:
 A string is simply a series of characters. Anything inside quotes is considered a string in Python, and you can use single or double quotes around your strings like this: 
 "This is a string."
 'This is also a string.'
+Changing Case in a String with Methods
+One of the simplest tasks you can do with strings is change the case of the words in a string.
+Input: name = "ada lovelace"
+       print(name.title())
+Output: Ada Lovelace
+Input:  name = "Ada Lovelace"
+                print(name.upper())
+                print(name.lower())
+Output:         ADA LOVELACE
+                ada lovelace
+Combining or Concatenating Strings
+It’s often useful to combine strings. For example, you might want to store a first name and a last name in separate variables, and then combine them when you want to display someone’s full name:
+Input: first_name = "ada"
+       last_name = "lovelace"
+       full_name = first_name + " " + last_name
+       print(full_name)
+Output:  ada lovelace
+Input:  first_name = "ada"
+        last_name = "lovelace"
+        full_name = first_name + " " + last_name
+        message = "Hello, " + full_name.title() + "!"
+        print(message)
+Output:  “Hello, Ada Lovelace!”
+Numbers
+Numbers are used quite often in programming to keep score in games, represent data in visualizations, store information in web applications, and so on. Python treats numbers in several different ways.
+ Integers
+ You can add (+), subtract (-), multiply (*), and divide (/) integers in Python. 
+ 2+5, 4-2, 7*5, 9/3 ..... are some mathematical operations with intehers.
+ Floats
+Python calls any number with a decimal point a float. This term is used in most programming languages, and it refers to the fact that a decimal point can appear at any position in a number. 
+2.0+5.0, 4.0-2.0, 7.8*5.3, 9.00/3.00 ..... are some mathematical operations with floats.
