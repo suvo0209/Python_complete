@@ -1,0 +1,23 @@
+print("Hello Python world!")
+When you run this code, you should see this output:
+Hello Python world!
+As you write your programs, your editor highlights different parts of your program in different ways. For example, it recognizes that print is the name of a function and displays that word in blue. It recognizes 
+that “Hello Python world!” is not Python code and displays that phrase in orange. This feature is called syntax highlighting and is quite useful as you start to write your own programs.
+Variables:
+Every variable holds a value, which is the information associated with that variable.
+Eg. message = "Hello Python world!"
+    print(message)
+Here 'message' is a variable that holds the string "Hello Python World!"
+Now, a variable can have different tyhpes of datatypes. Lets say in the above case rhe datatype is a string datatype, it can also be an integer, a float and so on...
+Lets take another example:
+ message = "Hello Python world!"
+ print(message)
+ message = "Hello Python Crash Course world!"
+ print(message)
+Now when you run hello_world.py, you should see two lines of output:
+ Hello Python world! 
+ Hello Python Crash Course world!
+Strings:
+A string is simply a series of characters. Anything inside quotes is considered a string in Python, and you can use single or double quotes around your strings like this: 
+"This is a string."
+'This is also a string.'
